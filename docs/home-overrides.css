@@ -1,0 +1,13 @@
+.library-card .text-link {
+  margin-top: auto;
+  color: #f2d59b;
+}
+
+.library-card .text-link:hover,
+.library-card .text-link:focus-visible {
+  color: #ffffff;
+}
+
+.library-card .text-link + .status {
+  margin-top: 1rem;
+}
