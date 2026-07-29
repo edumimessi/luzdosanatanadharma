@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://edumimessi.github.io/luzdosanatanadharma/sitemap.xml
+Sitemap: https://luzdosanatanadharma.com.br/sitemap.xml
