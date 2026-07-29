@@ -75,6 +75,18 @@ function initializeReaderFilter() {
   });
 }
 
+function initializeChapterLinks() {
+  document.querySelectorAll(".chapter-card").forEach((card, index) => {
+    if (card.querySelector("a")) return;
+    const link = document.createElement("a");
+    link.className = "text-link";
+    link.href = `capitulo.html?capitulo=${index + 1}`;
+    link.textContent = "Abrir estudo →";
+    link.style.marginTop = "1rem";
+    card.appendChild(link);
+  });
+}
+
 function initializeServiceWorker() {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
@@ -86,6 +98,7 @@ function initializeServiceWorker() {
 initializeReaderTheme();
 initializeReaderMenu();
 initializeReaderFilter();
+initializeChapterLinks();
 initializeServiceWorker();
 
 const year = document.querySelector("#current-year");
