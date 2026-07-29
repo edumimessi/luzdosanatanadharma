@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luzdosanatanadharma.com.br/sitemap.xml
+Sitemap: https://sanatanadharma.com.br/sitemap.xml
