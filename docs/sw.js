@@ -1,17 +1,20 @@
-const CACHE_NAME = "luz-sanatanadharma-v1";
+const CACHE_NAME = "luz-sanatanadharma-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
+  "./gita.html",
+  "./mahabharata.html",
   "./styles.css",
+  "./content.css",
+  "./home-overrides.css",
   "./app.js",
+  "./content.js",
   "./manifest.webmanifest",
   "./icon.svg"
 ];
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL))
-  );
+  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
   self.skipWaiting();
 });
 
