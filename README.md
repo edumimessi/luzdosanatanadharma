@@ -2,6 +2,10 @@
 
 Portal devocional hinduísta em língua portuguesa, inspirado nos Vedas, nas Upaniṣads, no Bhagavad Gītā, no Mahābhārata, no Rāmāyaṇa e nas diferentes tradições do Sanātana Dharma.
 
+## Site oficial
+
+**https://sanatanadharma.com.br**
+
 ## Propósito
 
 Oferecer estudo, contemplação e práticas para a vida cotidiana, preservando a diversidade das escolas e linhagens hindus. O conteúdo distingue textos tradicionais, sínteses explicativas e reflexões devocionais.
@@ -24,28 +28,23 @@ Oferecer estudo, contemplação e práticas para a vida cotidiana, preservando a
 
 ## Publicação pelo GitHub Pages
 
-O site está localizado na pasta `docs/`.
+O site está localizado na pasta `docs/` e publicado pelo GitHub Pages a partir da branch `main`.
 
-1. Abra **Settings → Pages**.
-2. Em **Build and deployment**, selecione **Deploy from a branch**.
-3. Escolha a branch `main` e a pasta `/docs`.
-4. Salve.
+Configuração:
 
-Endereço provisório esperado:
+- **Branch:** `main`
+- **Pasta:** `/docs`
+- **Domínio personalizado:** `sanatanadharma.com.br`
+- **Arquivo de domínio:** `docs/CNAME`
+- **HTTPS:** deve permanecer ativado em **Settings → Pages → Enforce HTTPS** assim que o certificado estiver disponível.
 
-`https://edumimessi.github.io/luzdosanatanadharma/`
+## DNS
 
-## Domínio personalizado no Registro.br
+O domínio é administrado pelo Registro.br. Os registros A do domínio raiz e o CNAME de `www` devem apontar para a configuração indicada pelo GitHub Pages.
 
-Depois que o domínio estiver definido:
+O arquivo `docs/CNAME` deve conter somente:
 
-1. Adicione o domínio em **Settings → Pages → Custom domain**.
-2. O GitHub criará ou solicitará o arquivo `docs/CNAME`.
-3. No Registro.br, configure os registros DNS recomendados pelo GitHub Pages.
-4. Aguarde a validação e ative **Enforce HTTPS**.
-5. Atualize `docs/sitemap.xml`, `docs/robots.txt` e as URLs canônicas para o domínio definitivo.
-
-Não crie o arquivo `CNAME` com um endereço provisório. Ele deve conter somente o domínio final, sem `https://` e sem caminhos.
+`sanatanadharma.com.br`
 
 ## Princípios editoriais
 
