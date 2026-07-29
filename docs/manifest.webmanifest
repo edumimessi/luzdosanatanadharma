@@ -1,0 +1,19 @@
+{
+  "name": "Luz do Sanātana Dharma",
+  "short_name": "Sanātana Dharma",
+  "description": "Devocionais e estudos sobre o Bhagavad Gītā, o Mahābhārata e as tradições hindus.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f1e6",
+  "theme_color": "#5b1f2a",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
