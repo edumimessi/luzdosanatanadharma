@@ -1,9 +1,10 @@
-const CACHE_NAME = "luz-sanatanadharma-v3";
+const CACHE_NAME = "luz-sanatanadharma-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./gita.html",
   "./mahabharata.html",
+  "./escolas.html",
   "./capitulo.html",
   "./styles.css",
   "./content.css",
